@@ -1,0 +1,15 @@
+#logo{
+    background-color: orange;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#logoheading{
+    text-align: center;
+    font-size: 8em;
+    font-family: 'Covered By Your Grace', cursive;
+    display: inline;
+    position: relative;
+    top: -60px;
+    left: 30px;
+}
