@@ -1,10 +1,10 @@
 #logo{
     background-image: linear-gradient(to right,deepskyblue,red);
-    box-sizing: border-box;
     text-align: center;
-    height: 90px;
+    border-style: solid ;
+    border-width: thin;
+    margin: 0;
     padding: 0;
-    
 }
 
 #logoheading{
@@ -12,7 +12,23 @@
     font-size: 4em;
     font-family: 'Covered By Your Grace', cursive;
     display: inline;
-    position: relative;
-    top: -20px;
-    left: 30px;
+    vertical-align: middle;
 }
+
+#logoimage{
+    vertical-align: middle;
+}
+
+/* .navigation-item{
+    display: inline-block;
+    border-style: solid ;
+    border-width: thin;
+    width: 33%;
+}
+
+#navigation-list{
+    border-style: solid;
+    border-width: thin;
+    text-align: center;
+    margin-top: auto;
+} */
