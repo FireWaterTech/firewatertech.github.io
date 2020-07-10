@@ -1,3 +1,7 @@
+body{
+    margin-top: 0;
+}
+
 #logo{
     background-image: linear-gradient(to right,deepskyblue,red);
     text-align: center;
@@ -20,16 +24,22 @@
     width: 5vw;
 }
 
-/* .navigation-item{
+.navigation-item{
     display: inline-block;
     border-style: solid ;
     border-width: thin;
-    width: 33%;
+    margin: 0;
+    padding: 0;
+    width: 24%;
+    font-size: 2vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: limegreen;
 }
 
 #navigation-list{
     border-style: solid;
     border-width: thin;
     text-align: center;
-    margin-top: auto;
-} */
+    margin-top: 0;
+    padding: 0;
+}
